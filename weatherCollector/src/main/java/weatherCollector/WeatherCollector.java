@@ -38,9 +38,9 @@ public class WeatherCollector {
 		//LIST OF THE REST API ENDPOINTS FOR EACH WEATHER SERVICE.
 		//TO ADD A NEW STATION, SIMPLY INCLUDE IP ADDRESS HERE.
 		ArrayList<String> stationList = new ArrayList<String>();
-		stationList.add("http://35.202.53.47:8001/");
-		stationList.add("http://35.202.127.198:8002/");
-		stationList.add("http://35.188.76.15:8003/");
+		stationList.add("http://localhost:8001/");
+		stationList.add("http://localhost:8002/");
+		stationList.add("http://localhost:8003/");
 		
 		List<Weather> collection = new ArrayList<>();
 		
