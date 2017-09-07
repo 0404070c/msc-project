@@ -16,4 +16,4 @@ To run the weather monitoring system locally:
 
 ---
 
-Running docker_build.sh will create Docker images for each service, which can then be run from a local Kubernetes install.
+Each service folder contains a Dockerfile to build Docker images. Note that the "weatherCollector" service will have to be modifed with the IP addresses of the Docker machine to run the service from Docker containers.
