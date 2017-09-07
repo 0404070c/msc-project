@@ -16,4 +16,4 @@ To run the weather monitoring system locally:
 
 ---
 
-Each service folder contains a Dockerfile to build Docker images. Note that the "weatherCollector" service will have to be modifed with the IP addresses of the Docker machine to run the service from Docker containers.
+Each service folder contains a Dockerfile to build Docker images. Note that the "weatherCollector" service will have to be modifed with the IP addresses of the Docker machine to run the application from Docker containers.
